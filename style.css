@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#logo{
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 10px;
+}
+
+#banner{
+    width: 100%;
+}
+
+h1{
+    color: #ff6b28;
+    max-width: 888px;
+    margin: auto;
+    padding: 60px;
+    font-weight: 750;
+}
+
+#main{
+    max-width: 688px;
+    margin: auto;
+}
+
+h2{
+    font-size: 1.1em;
+    color: #ff6b28;
+    font-weight: bolder;
+}
+    
+#ingredientes{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+#ingredientes:hover{
+
+    box-shadow: 5px 5px 20px 25px #f1e6df;
+    cursor:url('./assets/cursor_ingredientes.png'), pointer;
+
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-bottom: 40px;
+}
+
+#botao{
+    background-color: #ff6b26;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+#modo-preparo{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+#modo-preparo:hover{
+    box-shadow: 5px 5px 20px 25px #f1e6df;
+    cursor:url('./assets/cursor_preparo.png'), pointer;
+}
+
+#instrucoes{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    padding: 30px;
+}
+
+#instrucoes:hover{
+    box-shadow: 5px 5px 20px 25px #f1e6df;
+    cursor:url('./assets/cursor_intrucoes.png'), pointer;
+}
+
+#footer{
+    background-color: #ff6b28;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+#email{
+    color: white;
+    text-decoration: none;
+}
